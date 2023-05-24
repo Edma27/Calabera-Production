@@ -1,51 +1,45 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-  
 body {
-    overflow: hidden;
+  margin: 0;
+  overflow: hidden;
+  color: white !important;
+  font-family: "IBM Plex Mono", monospace !important;
 }
-  
+
 #video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 103%;
-    height: 119%;
-    z-index: -1;
-    opacity: 0.9;
-    filter: brightness(30%);
+  position: fixed;
+  right: 0;
+  top: 56px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
 }
-  
+
 #content {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  color: #ffffff;
 }
-  
-.corner {
-    position: absolute;
-    color: black;
-    font-size: 40px;
-    padding: 10px;
+
+.absolute-top-left {
+  position: absolute;
+  top: 60px;
+  left: 33px;
+  font-size: 52px;
 }
-  
-.top-left {
-    top: 0;
-    left: 0;
+
+nav {
+  background-color: black;
 }
-  
-.top-right {
-    top: 0;
-    right: 0;
+
+.right-to-left {
+  display: flex;
+  flex-direction: column-reverse;
 }
-  
-.bottom-left {
-    bottom: 0;
-    left: 0;
-}
-  
-.bottom-right {
-    bottom: 0;
-    right: 0;
+
+#navbarNav {
+  display: flex;
+  justify-content: end;
+  padding-right: 33px;
 }

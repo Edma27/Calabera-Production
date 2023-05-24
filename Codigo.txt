@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calavera Productions</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      overflow: hidden;
+    }
+    
+    #video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 103%;
+      height: 119%;
+      z-index: -1;
+      opacity: 0.9;
+      filter: brightness(30%);
+    }
+    
+    #content {
+      position: relative;
+      z-index: 1;
+    }
+    
+    .corner {
+      position: absolute;
+      color: black;
+      font-size: 40px;
+      padding: 10px;
+    }
+    
+    .top-left {
+      top: 0;
+      left: 0;
+    }
+    
+    .top-right {
+      top: 0;
+      right: 0;
+    }
+    
+    .bottom-left {
+      bottom: 0;
+      left: 0;
+    }
+    
+    .bottom-right {
+      bottom: 0;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+  <video id="video-background" autoplay loop muted>
+    <source src="file:///D:/Stream/Exportados/Mito%20Prometeo%20Behance.mp4" type="video/mp4">
+  </video>
+  
+  <div id="content">
+    <div class="corner top-left" style="color: white;">CALAVERA PRODUCTIONS</div>
+    <div class="corner top-right" style="color: white;">MENU</div>
+    <div class="corner bottom-left" style="color: white;">Texto esquina inferior izquierda</div>
+    <div class="corner bottom-right" style="color: white;">Texto esquina inferior derecha</div>
+  </div>
+</body>
+</html>

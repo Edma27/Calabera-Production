@@ -31,8 +31,8 @@ body {
 
 .absolute-top-container {
   position: absolute;
-  top: 170px;
-  right: 411px;
+  top: -75px;
+  right: 391px;
   font-size: 52px;
 }
 

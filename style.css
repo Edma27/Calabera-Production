@@ -29,6 +29,13 @@ body {
   font-size: 52px;
 }
 
+.absolute-top-container {
+  position: absolute;
+  top: 170px;
+  right: 411px;
+  font-size: 52px;
+}
+
 nav {
   background-color: black;
 }
@@ -42,4 +49,31 @@ nav {
   display: flex;
   justify-content: end;
   padding-right: 33px;
+}
+
+.contenedor {
+  position: fixed;
+  border-radius: 50%;
+  top: 50%;
+  left: 2%;
+  transform: translate(0, -50%);
+  width: 600px;
+  height: 600px;
+  background-color: black;
+}
+
+.logo {
+  transform: translate(40px, 38px);
+}
+
+.contenedor-txt {
+  position: fixed;
+  top: 50%;
+  right: 2%;
+  transform: translate(0, -50%);
+  width: 1000px;
+  height: 600px;
+  background-color: black;
+  padding: 100px;
+  color: white;
 }
